@@ -1,2 +1,2 @@
-# inspirational_quotes_with_API
-Created with CodeSandbox
+Tech stack: HTML, CSS, Javascript
+API: https://rapidapi.com/hub (Quotes API)

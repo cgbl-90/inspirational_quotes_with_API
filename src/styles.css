@@ -3,26 +3,22 @@
   --clr--secondary: #23d5ab;
   --clr--accent: #f146c7;
 }
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--clr--primary);
-  font-size: 2rem;
-  height: fit-content;
-  width: 100vh;
+
+.sidekick {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid #039be5;
+  font-family: 'Roboto', serif;
+  font-size: 2.4em;
+  line-height: 1.5em;
+  font-weight: 100;
 }
-.card {
-  width: 500px;
-  height: 500px;
-  border: none;
-  border-radius: 3px;
-  background: -webkit-linear-gradient(
-    to right,
-    var(--clr--secondary),
-    var(--clr--accent)
-  );
-  background: linear-gradient(
-    to right,
-    var(--clr--secondary),
-    var(--clr--accent)
-  );
+.sidekick:before, .sidekick:after {
+  font-family: Calibri;
+    color: #039be5;
+    font-size: 34px;
 }
+.sidekick:before {content: '\201e'}
+.sidekick:after {content: '\201c';}
+.sidekick cite {font-size: 50%; text-align:center; top:50%}
+.sidekick cite:before {content: ' \2015 '}

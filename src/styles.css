@@ -1,9 +1,3 @@
-:root {
-  --clr--primary: #ffffff;
-  --clr--secondary: #23d5ab;
-  --clr--accent: #f146c7;
-}
-
 .sidekick {
   position: relative;
   padding-left: 1em;
@@ -21,4 +15,4 @@
 .sidekick:before {content: '\201e'}
 .sidekick:after {content: '\201c';}
 .sidekick cite {font-size: 50%; text-align:center; top:50%}
-.sidekick cite:before {content: ' \2015 '}
+.sidekick cite:before {content: '  \2015  '}

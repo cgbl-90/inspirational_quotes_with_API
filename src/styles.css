@@ -3,16 +3,58 @@
   padding-left: 1em;
   border-left: 0.2em solid #039be5;
   font-family: 'Roboto', serif;
-  font-size: 2.4em;
-  line-height: 1.5em;
+  font-size: 2em;
+  line-height: 1.2em;
   font-weight: 100;
 }
-.sidekick:before, .sidekick:after {
+
+.sidekick:before,
+.sidekick:after {
   font-family: Calibri;
-    color: #039be5;
-    font-size: 34px;
+  color: #039be5;
+  font-size: 34px;
 }
-.sidekick:before {content: '\201e'}
-.sidekick:after {content: '\201c';}
-.sidekick cite {font-size: 50%; text-align:center; top:50%}
-.sidekick cite:before {content: '  \2015  '}
+
+.sidekick:before {
+  content: '\201e'
+}
+
+.sidekick:after {
+  content: '\201c';
+}
+
+.sidekick cite {
+  font-size: 50%;
+  text-align: center;
+  top: 50%
+}
+
+.sidekick cite:before {
+  content: '  \2015  '
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 800px;
+}
+
+button {
+  background-color: #039be5;
+  color: white;
+  font-family: monospace;
+  font-size: 1em;
+  line-height: 1.5em;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+button:hover,
+button:focus {
+  background-color: #187db0;
+}

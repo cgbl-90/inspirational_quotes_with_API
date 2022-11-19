@@ -1,15 +1,14 @@
-const axios = require("axios");
-
 const options = {
   method: "GET",
   url: "https://quotes15.p.rapidapi.com/quotes/random/",
   headers: {
     "X-RapidAPI-Key": "b723c16644mshb9e1ad5089cb612p1a9e00jsne6fd15687231",
-    "X-RapidAPI-Host": "quotes15.p.rapidapi.com"
-  }
+    "X-RapidAPI-Host": "quotes15.p.rapidapi.com",
+  },
 };
 
 function generateQuote() {
+  console.log("clicked button");
   axios
     .request(options)
     .then(function (response) {
@@ -24,5 +23,3 @@ function generateQuote() {
 
 let pquote = document.querySelector("#quote");
 let pauthor = document.querySelector("#author");
-
-generateQuote();
